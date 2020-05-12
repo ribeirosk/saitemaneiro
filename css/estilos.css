@@ -1,0 +1,38 @@
+body {
+    background-image: url('https://uploads.jovemnerd.com.br/wp-content/uploads/2018/09/internet-nicolas-cage-superman-1210x540.png');
+      background-size: auto 100vh;
+      font-family: Verdana;
+      height: 100vh;
+    }
+    
+    .menu { 
+      background-color: invisible;
+    }
+    
+    .menu ul{
+      display: flex;
+      justify-content: space-around
+    }
+    
+    .menu li{
+      list-style: none;
+    }
+    
+    a{
+      color: teal;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      background-color: black;
+    }
+    
+    .site-subtitle,
+    .site-title {
+      color: purple;
+      text-align: center;
+    }
+    
+    .site-subtitle{
+      font-style: italic;
+    }
